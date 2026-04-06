@@ -169,9 +169,3 @@ if st.button("🔍 Rank All miRNAs", type="primary"):
                 use_container_width=True
             )
 
-    st.divider()
-
-    st.warning(
-        "⚠️ This model uses conservation levels (family_conservation). "
-        "Predictions are more biologically informed but still require experimental validation."
-    )
